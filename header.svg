@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" width="1200" height="410" role="img" aria-label="Shashwat Mittal — Software Engineer at Upstox">
+  <style>
+    .mono  { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, "Courier New", monospace; font-size: 16px; }
+    .label { font-size: 11px; letter-spacing: 0.16em; }
+
+    /* light theme */
+    .border  { stroke: #e4e4e7; stroke-width: 1; fill: none; }
+    .rule    { stroke: #e4e4e7; stroke-width: 1; }
+    .titleTx { fill: #71717a; }
+    .prompt  { fill: #16a34a; font-weight: 600; }
+    .cmd     { fill: #18181b; font-weight: 600; }
+    .out     { fill: #52525b; }
+    .key     { fill: #2563eb; }
+    .str     { fill: #c2410c; }
+    .num     { fill: #7c3aed; }
+    .com     { fill: #a1a1aa; }
+    .cursor  { fill: #18181b; }
+
+    .dot-r { fill: #ff5f57; }
+    .dot-y { fill: #febc2e; }
+    .dot-g { fill: #28c840; }
+    .live  { fill: #22c55e; }
+
+    @media (prefers-color-scheme: dark) {
+      .border  { stroke: #27272a; }
+      .rule    { stroke: #27272a; }
+      .titleTx { fill: #a1a1aa; }
+      .prompt  { fill: #4ade80; }
+      .cmd     { fill: #fafafa; }
+      .out     { fill: #d4d4d8; }
+      .key     { fill: #60a5fa; }
+      .str     { fill: #fb923c; }
+      .num     { fill: #a78bfa; }
+      .com     { fill: #71717a; }
+      .cursor  { fill: #fafafa; }
+    }
+
+    .blink { animation: blink 1.06s steps(2, start) infinite; }
+    @keyframes blink { to { visibility: hidden; } }
+  </style>
+
+  <!-- terminal frame -->
+  <rect x="1" y="1" width="1198" height="408" rx="10" class="border"/>
+
+  <!-- title bar -->
+  <line x1="1" y1="46" x2="1199" y2="46" class="rule"/>
+  <circle cx="24" cy="23" r="6" class="dot-r"/>
+  <circle cx="44" cy="23" r="6" class="dot-y"/>
+  <circle cx="64" cy="23" r="6" class="dot-g"/>
+  <text x="600" y="28" class="mono label titleTx" text-anchor="middle">~/shashwat-mittal &#8212; zsh</text>
+  <circle cx="1080" cy="22" r="4" class="live"/>
+  <text x="1093" y="28" class="mono label titleTx">ONLINE</text>
+
+  <!-- session: pwd -->
+  <text x="40" y="86" class="mono">
+    <tspan class="prompt">$</tspan><tspan class="cmd"> pwd</tspan>
+  </text>
+  <text x="40" y="114" class="mono key">~/upstox/trading-platform</text>
+
+  <!-- session: whoami -->
+  <text x="40" y="154" class="mono">
+    <tspan class="prompt">$</tspan><tspan class="cmd"> whoami</tspan>
+  </text>
+  <text x="40" y="182" class="mono">
+    <tspan class="out">shashwat mittal </tspan><tspan class="com">&#183;</tspan><tspan class="out"> sde-ii </tspan><tspan class="com">&#183;</tspan><tspan class="out"> trading platform team </tspan><tspan class="com">@</tspan><tspan class="key">upstox</tspan>
+  </text>
+
+  <!-- session: cat -->
+  <text x="40" y="222" class="mono">
+    <tspan class="prompt">$</tspan><tspan class="cmd"> cat ./bio.md</tspan>
+  </text>
+  <text x="40" y="250" class="mono out">building trading interfaces where milliseconds matter.</text>
+  <text x="40" y="278" class="mono">
+    <tspan class="out">currently shipping the </tspan><tspan class="str">scalper terminal</tspan><tspan class="out"> to </tspan><tspan class="num">10M+</tspan><tspan class="out"> users.</tspan>
+  </text>
+
+  <!-- prompt with blinking cursor -->
+  <text x="40" y="318" class="mono">
+    <tspan class="prompt">$</tspan><tspan class="cmd"> </tspan>
+  </text>
+  <rect x="64" y="304" width="9" height="18" class="cursor blink"/>
+
+  <!-- hint bar -->
+  <line x1="1" y1="358" x2="1199" y2="358" class="rule"/>
+  <text x="40"  y="386" class="mono label titleTx">[ID]</text>
+  <text x="120" y="386" class="mono label titleTx">[NOW]</text>
+  <text x="210" y="386" class="mono label titleTx">[STACK]</text>
+  <text x="320" y="386" class="mono label titleTx">[LOG]</text>
+  <text x="410" y="386" class="mono label titleTx">[REACH]</text>
+  <text x="1160" y="386" class="mono label titleTx" text-anchor="end">README.md</text>
+</svg>
