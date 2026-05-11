@@ -11,7 +11,7 @@ const shashwat = {
   role:     'Software Engineer · SDE-II',
   team:     '@upstox',
   city:     'Mumbai, India',
-  shipping: 'Scalper Terminal · 10M+ users',
+  shipping: 'web trading platforms · 10M+ users',
   driving:  'AI-tooling adoption · engineering-efficiency',
 } as const;
 ```
@@ -23,7 +23,7 @@ const shashwat = {
 ```bash
 $ ls -la ./current-focus
 
-drwxr-xr-x  scalper-terminal/        # ms-level HFT trading platform
+drwxr-xr-x  web-trading-platforms/   # scalper · plus · main web
 drwxr-xr-x  tv-platform-ui-lib/      # internal lib · multi-product
 drwxr-xr-x  ai-tooling-rollout/      # team-wide eng-efficiency
 ```
@@ -51,7 +51,7 @@ $ git log --author='shashwat' --oneline -8
 7f3c2a1  perf(option-chain): cut re-renders, +70% real-time perf
 9bd821e  feat(plus): responsive landing, drove +30% conversion
 4ae5219  perf(app): drop memory footprint −30% (−70% in hot paths)
-e1f8c40  feat(scalper): ship ms-level HFT terminal to prod
+e1f8c40  feat(scalper): ship terminal to prod · ms-level latency
 2c5d3b8  refactor(orders): consolidate endpoints behind unified API
 8f7a193  feat(strategy): multi-leg options builder
 d4c9e7a  feat(tv-platform): co-author internal UI library
