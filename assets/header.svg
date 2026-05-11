@@ -71,7 +71,7 @@
   </text>
   <text x="40" y="250" class="mono out">building trading interfaces where milliseconds matter.</text>
   <text x="40" y="278" class="mono">
-    <tspan class="out">currently shipping the </tspan><tspan class="str">scalper terminal</tspan><tspan class="out"> to </tspan><tspan class="num">10M+</tspan><tspan class="out"> users.</tspan>
+    <tspan class="out">shipping across </tspan><tspan class="str">web trading platforms</tspan><tspan class="out"> at upstox &#183; </tspan><tspan class="num">10M+</tspan><tspan class="out"> users.</tspan>
   </text>
 
   <!-- prompt with blinking cursor -->
